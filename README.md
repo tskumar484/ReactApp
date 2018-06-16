@@ -35,3 +35,6 @@ Ex: <br />
 //you should install css-loader and style-loader for applying external style to the  html elements
 
 9. npm install css-loader style-loader --save
+
+// follow this link for ways of applying css on react components
+https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
