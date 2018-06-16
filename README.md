@@ -32,3 +32,6 @@ Ex: <br />
 
 // Writing React Component, make sure we need to install below command. <br />
 8. npm install react react-dom <br />
+//you should install css-loader and style-loader for applying external style to the  html elements
+
+9. npm install css-loader style-loader --save
