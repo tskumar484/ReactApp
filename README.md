@@ -9,26 +9,26 @@ A compiler such as Babel. It lets you write modern JavaScript code that still wo
 Installing React JS:
 Create a new folder ex: react app and open git bash command control and follow below instructions.
 // Create package.json file
-1. npm init
-// Installing webpack
-2. npm install webpack-cli webpack-dev-server path
-// Crete a webpack configuration file and update all the required fields.
-// Follow link: https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel#toc-setting-up-babel
-3. touch webpack.config.js
-// Installing webpack
-4. npm install babel-loader babel-core babel-preset-es2015 babel-preset-react --dev
-// Create a new babelrc file and follow link: https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel#toc-setting-up-babel
-5. touch .babelrc
-// Install html-webpack-plugin, read link for more information
-// https://webpack.js.org/plugins/html-webpack-plugin/
+1. npm init <br />
+// Installing webpack <br />
+2. npm install webpack-cli webpack-dev-server path <br />
+// Crete a webpack configuration file and update all the required fields. <br />
+// Follow link: https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel#toc-setting-up-babel <br />
+3. touch webpack.config.js <br />
+// Installing webpack <br />
+4. npm install babel-loader babel-core babel-preset-es2015 babel-preset-react --dev <br />
+// Create a new babelrc file and follow link: https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel#toc-setting-up-babel <br />
+5. touch .babelrc <br />
+// Install html-webpack-plugin, read link for more information <br />
+// https://webpack.js.org/plugins/html-webpack-plugin/ <br />
 
-6. npm install html-webpack-plugin
-7. Open up your package.json and let's add a start script.
-Ex:
-  // add the scripts key to your package.json
-  "scripts": {
-    "start": "webpack-dev-server"
-  }
+6. npm install html-webpack-plugin <br />
+7. Open up your package.json and let's add a start script. <br />
+Ex: <br />
+  // add the scripts key to your package.json <br />
+  "scripts": { <br />
+    "start": "webpack-dev-server" <br />
+  } <br />
 
-// Writing React Component, make sure we need to install below command.
-8. npm install react react-dom
+// Writing React Component, make sure we need to install below command. <br />
+8. npm install react react-dom <br />
