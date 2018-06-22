@@ -1,25 +1,28 @@
 import React from 'react';
 import './App.css';
-
+import Login from './Login.jsx';
 export default class App extends React.Component {
-
     constructor(props) {
         console.log('I am in constructor!');
         super(props);
         this.state = {
-            data: 'Hi Santhosh!'
+            data: 'Hi Susmitha!'
         }
     }
 
-    componentWillMount() {
-        console.log('I am in componentWillMount!');
+    static getDerivedStateFromProps(nextProps, prevState) {
+        console.log("I am in getDerivedStateFromProps!");
+        if (nextProps.name === prevState.data) {
+            return null;
+        }
+        else return null;
     }
 
     getData() {
         setTimeout(() => {
             console.log('I am in getData method!');
             this.setState({
-                data: 'Hello Susmitha'
+                data: 'Hello Santhosh!'
             })
         }, 2000)
     }
@@ -32,10 +35,7 @@ export default class App extends React.Component {
     render() {
         console.log('I am in render!');
         return (
-            <div className="container">
-                <h1>{this.props.name}:</h1>
-                <h2>{this.state.data}</h2>
-            </div>
+            <Login/>
         )
     }
 }
